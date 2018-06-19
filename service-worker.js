@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.02aca95c3d22f49f7a56a161a26083b4.js"
+  "/precache-manifest.32f1f8a743aa5d9f1742f2411732bbf2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "rmjordas.github.io"});
