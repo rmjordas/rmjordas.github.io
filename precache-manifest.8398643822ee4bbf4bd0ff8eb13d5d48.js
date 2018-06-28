@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/img/robots.dcd7d526.jpg"
   },
   {
-    "revision": "cac28eb27e98b2bf3927c69ced345f1b",
+    "revision": "dfeaae3a1da125d99f7ba815b69934dd",
     "url": "/index.html"
   },
   {
