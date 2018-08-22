@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.fc291824fbc7eb733ce5853592bf8bf4.js"
+  "/precache-manifest.8af8ded53662374cf97114c9f17bf3c8.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "rmjordas.github.io"});
