@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Roboto Slab';
+  font-display: swap;
   src: local('Roboto Slab'), local('Roboto Slab Regular'),
     local('RobotoSlab-Regular'), url('RobotoSlab-Regular.woff2') format('woff2'),
     url('RobotoSlab-Regular.ttf') format('truetype'),
@@ -10,6 +11,7 @@
 
 @font-face {
   font-family: 'Roboto Slab';
+  font-display: swap;
   src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
     url('RobotoSlab-Bold.woff2') format('woff2'),
     url('RobotoSlab-Bold.ttf') format('truetype'),
