@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{54:function(e,t,n){"use strict";n.r(t);var l=n(0),a=n(10),c=n(19);t.default=function(){var e=Object(a.useRouteData)().post;return l.createElement("div",null,l.createElement(c.Link,{to:"/blog/"},"<"," Back"),l.createElement("br",null),l.createElement("h3",null,e.title),l.createElement("p",null,e.body))}}}]);

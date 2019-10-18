@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{52:function(e,t,n){"use strict";n.r(t);var a=n(0);t.default=function(){return a.createElement("div",null,a.createElement("p",null,"React Static is a progressive static site generator for React."))}}}]);
