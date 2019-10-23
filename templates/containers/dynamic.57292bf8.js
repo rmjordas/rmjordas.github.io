@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{54:function(e,t,a){"use strict";a.r(t);var n=a(0),i=a.n(n);t.default=function(){return i.a.createElement("div",null,i.a.createElement("p",null,"This is a dynamic page! It will not be statically exported, but is available at runtime"))}}}]);
