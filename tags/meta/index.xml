@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>meta on Rodger Jordas</title>
-    <link>https://rmjordas.netlify.com/tags/meta/</link>
+    <link>https://rmjordas.github.io/tags/meta/</link>
     <description>Recent content in meta on Rodger Jordas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2019 01:57:31 +0800</lastBuildDate>
     
-	<atom:link href="https://rmjordas.netlify.com/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rmjordas.github.io/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://rmjordas.netlify.com/devlog/hello-world/</link>
+      <link>https://rmjordas.github.io/devlog/hello-world/</link>
       <pubDate>Fri, 22 Nov 2019 01:57:31 +0800</pubDate>
       
-      <guid>https://rmjordas.netlify.com/devlog/hello-world/</guid>
+      <guid>https://rmjordas.github.io/devlog/hello-world/</guid>
       <description>Hello World!!</description>
     </item>
     
