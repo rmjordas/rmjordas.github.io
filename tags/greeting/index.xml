@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>greeting on Rodger Jordas</title>
+    <link>https://rmjordas.netlify.com/tags/greeting/</link>
+    <description>Recent content in greeting on Rodger Jordas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Nov 2019 01:57:31 +0800</lastBuildDate>
+    
+	<atom:link href="https://rmjordas.netlify.com/tags/greeting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://rmjordas.netlify.com/devlog/hello-world/</link>
+      <pubDate>Fri, 22 Nov 2019 01:57:31 +0800</pubDate>
+      
+      <guid>https://rmjordas.netlify.com/devlog/hello-world/</guid>
+      <description>Hello World!!</description>
+    </item>
+    
+  </channel>
+</rss>

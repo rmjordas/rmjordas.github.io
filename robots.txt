@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://rmjordas.github.io/sitemap.xml
+Sitemap: http://rmjordas.netlify.com/sitemap.xml
