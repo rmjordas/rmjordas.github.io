@@ -12,6 +12,7 @@
 	<title>Rodger Jordas | Software developer with experience building web applications using TypeScript, JavaScript, React, Go and other web technologies.</title>
 
 	<meta name="author" content="Rodger Jordas">
+	
 	<meta name="description" content="Software developer with experience building web applications using TypeScript, JavaScript, React, Go and other web technologies.">
 
 	
@@ -32,6 +33,7 @@
 	<meta property="og:title" content="Rodger Jordas">
 	<meta property="og:description" content="Software developer with experience building web applications using TypeScript, JavaScript, React, Go and other web technologies.">
 
+	<link rel="preconnect" href="https://rmjordas.github.io" crossorigin>
 	<link rel="canonical" href="https://rmjordas.github.io/">
 	<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
@@ -44,9 +46,129 @@
 
 	
 	<link rel="stylesheet" href="/css/normalize.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet" />
+
+	<link rel="preload" href="/fonts/roboto-slab-v10-latin-700.ttf" as="font" crossorigin>
+
+<link rel="preload" href="/fonts/roboto-v20-latin-300.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-300.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-300.ttf" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-300.woff" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-300.woff2" as="font" crossorigin>
+
+<link rel="preload" href="/fonts/roboto-v20-latin-700.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700.ttf" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700.woff" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700.woff2" as="font" crossorigin>
+
+<link rel="preload" href="/fonts/roboto-v20-latin-700italic.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700italic.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700italic.ttf" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700italic.woff" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-700italic.woff2" as="font" crossorigin>
+
+<link rel="preload" href="/fonts/roboto-v20-latin-italic.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-italic.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-italic.ttf" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-italic.woff" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-italic.woff2" as="font" crossorigin>
+
+<link rel="preload" href="/fonts/roboto-v20-latin-regular.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-regular.eot" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-regular.ttf" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-regular.woff" as="font" crossorigin>
+<link rel="preload" href="/fonts/roboto-v20-latin-regular.woff2" as="font" crossorigin>
+
+
+	<link rel="alternate" type="application/rss+xml" href="/devlog/index.xml" title="Devlog RSS Feed" />
 
 	<style>
+	 
+	@font-face {
+		font-family: "Roboto Slab";
+		src: url("/fonts/roboto-slab-v10-latin-700.eot");  
+		src: local('Roboto Slab'),
+			url("/fonts/roboto-slab-v10-latin-700.eot?#iefix") format("embedded-opentype"),  
+			url("/fonts/roboto-slab-v10-latin-700.woff2") format("woff2"),  
+			url("/fonts/roboto-slab-v10-latin-700.woff") format("woff"),  
+			url("/fonts/roboto-slab-v10-latin-700.otf") format("opentype"),  
+			url("/fonts/roboto-slab-v10-latin-700.ttf") format("truetype"),  
+			url("/fonts/roboto-slab-v10-latin-700.svg") format("svg");  
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	 
+	@font-face {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 300;
+		src: url('/fonts/roboto-v20-latin-300.eot');  
+		src: local('Roboto Light'), local('Roboto-Light'),
+			url('/fonts/roboto-v20-latin-300.eot?#iefix') format('embedded-opentype'),  
+			url('/fonts/roboto-v20-latin-300.woff2') format('woff2'),  
+			url('/fonts/roboto-v20-latin-300.woff') format('woff'),  
+			url('/fonts/roboto-v20-latin-300.ttf') format('truetype'),  
+			url('/fonts/roboto-v20-latin-300.svg#Roboto') format('svg');  
+	}
+
+	 
+	@font-face {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		src: url('/fonts/roboto-v20-latin-regular.eot');  
+		src: local('Roboto'), local('Roboto-Regular'),
+			url('/fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'),  
+			url('/fonts/roboto-v20-latin-regular.woff2') format('woff2'),  
+			url('/fonts/roboto-v20-latin-regular.woff') format('woff'),  
+			url('/fonts/roboto-v20-latin-regular.ttf') format('truetype'),  
+			url('/fonts/roboto-v20-latin-regular.svg#Roboto') format('svg');  
+	}
+
+	 
+	@font-face {
+		font-family: 'Roboto';
+		font-style: italic;
+		font-weight: 400;
+		src: url('/fonts/roboto-v20-latin-italic.eot');  
+		src: local('Roboto Italic'), local('Roboto-Italic'),
+			url('/fonts/roboto-v20-latin-italic.eot?#iefix') format('embedded-opentype'),  
+			url('/fonts/roboto-v20-latin-italic.woff2') format('woff2'),  
+			url('/fonts/roboto-v20-latin-italic.woff') format('woff'),  
+			url('/fonts/roboto-v20-latin-italic.ttf') format('truetype'),  
+			url('/fonts/roboto-v20-latin-italic.svg#Roboto') format('svg');  
+	}
+
+	 
+	@font-face {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 700;
+		src: url('/fonts/roboto-v20-latin-700.eot');  
+		src: local('Roboto Bold'), local('Roboto-Bold'),
+			url('/fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'),  
+			url('/fonts/roboto-v20-latin-700.woff2') format('woff2'),  
+			url('/fonts/roboto-v20-latin-700.woff') format('woff'),  
+			url('/fonts/roboto-v20-latin-700.ttf') format('truetype'),  
+			url('/fonts/roboto-v20-latin-700.svg#Roboto') format('svg');  
+	}
+
+	 
+	@font-face {
+		font-family: 'Roboto';
+		font-style: italic;
+		font-weight: 700;
+		src: url('/fonts/roboto-v20-latin-700italic.eot');  
+		src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+			url('/fonts/roboto-v20-latin-700italic.eot?#iefix') format('embedded-opentype'),  
+			url('/fonts/roboto-v20-latin-700italic.woff2') format('woff2'),  
+			url('/fonts/roboto-v20-latin-700italic.woff') format('woff'),  
+			url('/fonts/roboto-v20-latin-700italic.ttf') format('truetype'),  
+			url('/fonts/roboto-v20-latin-700italic.svg#Roboto') format('svg');  
+	}
+
+
 	html {
 		font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 			Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -88,8 +210,8 @@
 		margin-right: 0;
 	}
 
-	h1,h2,h3,h4,h5,h6 {
-		font-family: "Roboto Slab", serif;
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto Slab', sans-serif;
 	}
 
 	h1,
