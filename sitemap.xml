@@ -3,8 +3,8 @@
 <url> <loc>https://rmjordas.github.io/devlog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rmjordas.github.io/devlog/secunda-v1-3-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rmjordas.github.io/devlog/secunda-v1-3-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://rmjordas.github.io/devlog/hello-world</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rmjordas.github.io/devlog/secunda</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rmjordas.github.io/devlog/hello-world</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rmjordas.github.io/devlog/awesome-vue-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rmjordas.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
