@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://rmjordas.github.io/sitemap.xml
+Sitemap: https://rmjordas.github.io/sitemap/sitemap-index.xml
 Host: https://rmjordas.github.io
